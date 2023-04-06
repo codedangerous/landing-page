@@ -170,7 +170,15 @@ h2 {
     color: #e5e7eb;
 }
 
-.blue-box a {
+.blue-box button {
     border: 2px solid #f9faf8;
     padding: 8px 24px;
+}
+
+/* Footer */
+footer {
+    padding: 24px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
 }
