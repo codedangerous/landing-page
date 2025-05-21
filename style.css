@@ -95,3 +95,31 @@ body {
 .hero img {
     max-height: 300px;
 }
+
+.information .container {
+    margin: 48px auto;
+}
+
+.information h2 {
+    text-align: center;
+    margin: 48px 0;
+}
+
+.information .cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.information .card {
+    text-align: center;
+    width: 200px;
+}
+
+.information img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #3882f6;
+    border-radius: 12px;
+}
