@@ -9,6 +9,7 @@
 
 body {
     font-size: 18px;
+    min-height: 100vh;
 }
 
 .container {
@@ -140,4 +141,24 @@ body {
 .quote p {
     text-align: right;
     margin: 0 48px 0;
+}
+
+.signup .signup-container {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 6px;
+    margin: 72px 0;
+    padding: 32px 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup button {
+    background-color: transparent;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 8px 48px;
+    border: 2px solid #f9faf8;
+    border-radius: 6px;
 }
