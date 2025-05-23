@@ -10,6 +10,8 @@
 body {
     font-size: 18px;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
@@ -97,6 +99,10 @@ body {
     max-height: 300px;
 }
 
+.information {
+    flex: 1;
+}
+
 .information .container {
     margin: 48px auto;
 }
@@ -161,4 +167,16 @@ body {
     padding: 8px 48px;
     border: 2px solid #f9faf8;
     border-radius: 6px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 24px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
